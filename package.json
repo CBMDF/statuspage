@@ -15,6 +15,7 @@
     "dotenv": "^8.2.0",
     "gh-pages": "^3.1.0",
     "rollup": "^2.3.4",
+    "rollup-plugin-dev": "^1.1.2",
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-svelte": "^6.0.0",
     "rollup-plugin-terser": "^7.0.0",
@@ -22,6 +23,12 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
+<<<<<<< HEAD
     "sirv-cli": "^1.0.0"
+=======
+    "moment": "^2.29.1",
+    "sirv-cli": "^1.0.0",
+    "sveltestrap": "^3.9.5"
+>>>>>>> d9907b06e6d39421533a4649b86b5e0e210a1f22
   }
 }
