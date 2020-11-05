@@ -2,9 +2,7 @@
   "en": {
     "component": "component",
     "incident": "incident",
-    "service component": "Service Components",
-    "incident history": "Incidents History",
-    "service_status": "Service Status",
+    "service_status": "CBMDF Service Status",
     "past_incidents": "Past incidents",
     "loading": "loading",
     "error": "error",
@@ -23,9 +21,7 @@
   "pt_BR": {
     "component": "componente",
     "incident": "incidente",
-    "service component": "Componentes de Serviço",
-    "incident history": "Histórico de Incidentes",
-    "service_status": "Status dos Serviços",
+    "service_status": "Status dos Serviços do CBMDF",
     "past_incidents": "Incidentes anteriores",
     "loading": "carregando",
     "error": "erro",
