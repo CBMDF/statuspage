@@ -1,6 +1,6 @@
 {
   "user": "CBMDF",
   "repo": "statuspage",
-  "env": "production",
-  "auto_refresh": true
+  "auto_refresh": true,
+  "incident_days": 7
 }
