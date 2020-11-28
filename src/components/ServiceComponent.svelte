@@ -53,9 +53,12 @@
   {#each component.labels as label}
     {#if label.name == 'operational' || label.name == 'performance issues' || label.name == 'major outage' || label.name == 'partial outage'}
       <div class="row component">
-        <div class="col-md-8">{component.title}</div>
-        <div class="col-md-4 label " style="background:#{label.color}">
-          {getMessage(label.name)}
+        <div class="col-8 col-md-8">
+          <span
+            class="component-title {label.name.replace(' ', '-')}">{component.title}</span>
+        </div>
+        <div class="col-4 col-md-4 label">
+          <span class="label-text">{getMessage(label.name)}</span>
         </div>
       </div>
     {/if}

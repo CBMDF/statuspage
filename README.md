@@ -9,6 +9,7 @@ Do you like it? Support this project!
 <img src="https://github.com/ricardomaia/statuspage/blob/main/screenshot.png" width="600" />
 
 ## Demo
+
 https://ricardomaia.github.io/statuspage/
 
 ## Get started
@@ -45,7 +46,7 @@ Set your `config.json` file like this, replacing `user` and `repo` with your use
   "user": "ricardomaia",
   "repo": "statuspage",
   "auto_refresh": true,
-  "incident_days": 7
+  "incident_days": 365
 }
 ```
 
@@ -68,6 +69,7 @@ And run it:
 ```bash
 npm run start
 ```
+
 ⚠️ The production mode uses the settings in your `config.json` file and connects to the GitHub API.
 
 ## Deploying to GitHub Pages

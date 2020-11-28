@@ -4,7 +4,7 @@
     padding: 10px;
     margin-right: 10px;
     float: left;
-    background-image: url("status-page-logo.svg");
+    background-image: url("./ghost-logo.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
