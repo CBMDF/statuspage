@@ -14,9 +14,17 @@ https://ricardomaia.github.io/statuspage/
 
 ## Get started
 
-_Note that you will need to have [Node.js](https://nodejs.org) installed._
+_Note that you must have [Node.js](https://nodejs.org) and [Git](https://git-scm.com/downloads) installed on your computer_ and a [GitHub](https://github.com/join) account.
 
-[Clone or fork the repository](https://github.com/ricardomaia/statuspage/fork)
+[Fork the repository](https://github.com/ricardomaia/statuspage/fork). Click on the right top button of respository page.
+
+<a href="https://github.com/ricardomaia/statuspage/fork"><img src="https://github-images.s3.amazonaws.com/help/bootcamp/Bootcamp-Fork.png" width="300" alt="Fork Button" /></a>
+
+Now clone your forked repository on your computer. On terminal type:
+
+```terminal
+git clone https://github.com/[your_username]/statuspage.git
+```
 
 Install the dependencies...
 
@@ -24,6 +32,24 @@ Install the dependencies...
 cd statuspage
 npm install
 ```
+
+## Setup
+
+Ghost provides a console script to create all required label on your repository. But first you need set a **personal access token**. Go to https://github.com/settings/tokens and click on button "Generate new token". On the "Note" input field give an friendly name like "ghost" and check the options:
+
+- repo:status
+- repo_deployment and
+- public_repo
+
+So click in the "Generate token". You will see a string like `23ffabb27cb569eeb3da9599ac61608511477046`. Save it to later!
+
+```bash
+node setup.js
+```
+
+Paste your generated token.
+
+<img src="https://github.com/ricardomaia/statuspage/blob/main/setup.png" width="600" />
 
 ...then start [Rollup](https://rollupjs.org):
 
