@@ -2,9 +2,13 @@
   "en": {
     "component": "component",
     "incident": "incident",
+<<<<<<< HEAD
+    "service_status": "CBMDF Service Status",
+=======
     "service component": "Service Components",
     "incident history": "Incidents History",
     "service_status": "Service Status",
+>>>>>>> d9907b06e6d39421533a4649b86b5e0e210a1f22
     "past_incidents": "Past incidents",
     "loading": "loading",
     "error": "error",
@@ -23,9 +27,13 @@
   "pt_BR": {
     "component": "componente",
     "incident": "incidente",
+<<<<<<< HEAD
+    "service_status": "Status dos Serviços do CBMDF",
+=======
     "service component": "Componentes de Serviço",
     "incident history": "Histórico de Incidentes",
     "service_status": "Status dos Serviços",
+>>>>>>> d9907b06e6d39421533a4649b86b5e0e210a1f22
     "past_incidents": "Incidentes anteriores",
     "loading": "carregando",
     "error": "erro",
